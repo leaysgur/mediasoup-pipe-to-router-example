@@ -11,3 +11,15 @@ See also https://mediasoup.org/documentation/v3/scalability/
   - w/ publish router
 - Each consuming will be done on randomly picked transport
   - w/ subscribe router
+
+## Try
+```sh
+# server
+cd server && npm start
+
+# sender
+cd sender && npm start
+
+# recver
+cd recver && npm start
+```
